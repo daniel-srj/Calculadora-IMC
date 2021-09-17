@@ -1,0 +1,95 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+header{
+    background-color: dodgerblue;
+    color: #fff;
+    height: auto;
+    margin-bottom: 1em;
+    padding: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+header h2{
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+.container{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+section h2{
+    font-size: 2em;
+    margin-bottom: .6em;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom : .5em;
+}
+td, th{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 1em;
+}
+th{
+    font-weight: bold;
+    background-color: rgb(201, 201, 201);
+}
+#titulo-form{
+    margin-top: 2em;
+}
+label{
+    display: block;
+    color: rgb(114, 114, 114);
+    margin-bottom: .2em;
+}
+.campo{
+    margin: 0;
+    width: 100%;
+    border: 1px solid #000;
+    padding: .7em;
+}
+.campo-medio{
+    display: inline-block;
+    padding-right: .5em;
+}
+.grupo{
+    display: inline-block;
+    width: 49%;
+    padding: 10px 0px;
+}
+button{
+    padding: .5em 2em;
+    display: block;
+    border: 0;
+    border-bottom: 3px solid;
+    border-color: midnightblue;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 0;
+	margin-top: -3px;
+    color: floralwhite;
+    background-color: dodgerblue;
+    width: 20%;
+    clear: both;
+}
+button:active{
+    margin-top: 0;
+    border: 0;
+    color: greenyellow;
+}
+.campo-invalido{
+	border: 1px solid red;
+}
+
+.paciente-invalido {
+	background-color: lightcoral;
+}

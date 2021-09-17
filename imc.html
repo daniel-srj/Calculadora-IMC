@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sr. IMC</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h2 class="titulo">Sr. IMC</h2>
+            </div>
+        </header>
+        <main>
+            <section class="container">
+                <h2>Os Pacientes:</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Peso</th>
+                            <th>Altura</th>
+                            <th>IMC</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela-pacientes">
+                        <tr class="paciente">
+                            <td class="info-nome">Maurício</td>
+                            <td class="info-peso">30kg</td>
+                            <td class="info-altura">1.70</td>
+                            <td class="info-imc">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <section class="container">
+            <h2 id="titulo-form">Adicionar paciente</h2>
+            <form id="form-adiciona">
+                <div class="">
+                    <label for="nome">Nome:</label>
+                    <input id="nome" name="nome" type="text" placeholder="Digite o nome do paciente" class="campo">
+                </div>
+                <div class="grupo">
+                    <label for="peso">Peso:</label>
+                    <input id="peso" name="peso" type="text" placeholder="Digite o peso" class="campo campo-medio">
+                </div>
+                <div class="grupo">
+                    <label for="altura">Altura:</label>
+                    <input id="altura" name="altura" type="text" placeholder="Digite a altura" class=" campo campo-medio">
+                </div>
+
+                <button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+            </form>
+        </section>
+        <script src="calculadora-imc.js" ></script>
+        <script src="index.js" ></script>
+        
+    </body>
+</html>
